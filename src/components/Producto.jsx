@@ -21,7 +21,7 @@ function Producto({ producto }) {
                     className="bg-indigo-600 hover:bg-indigo-800 text-white w-full mt-5 uppercase font-bold p-3"
                     onClick={() => {
                         handleClickModal();
-                        handleSetProducto(producto)
+                        handleSetProducto(producto);
                     }}
                 >
                     Agregar
