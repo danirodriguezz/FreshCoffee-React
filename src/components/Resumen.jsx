@@ -6,7 +6,7 @@ function Resumen() {
     const { pedido, total } = useQuiosco();
 
     const comprobarPedido = () => pedido.length === 0;
-    console.log(comprobarPedido())
+    //console.log(comprobarPedido())
 
     return (
 
